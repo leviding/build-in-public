@@ -1,0 +1,6 @@
+/* .vitepress/theme/custom.css */
+.name {
+  @media (min-width: 640px) {
+    max-width: 620px !important;
+  }
+}
