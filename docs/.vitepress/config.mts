@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Build in Public 增长手册",
   description: "Build yourself in public. Build your product in public.",
   themeConfig: {
+    logo: '/icons/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
@@ -22,7 +23,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/leviding/build-in-public' }
     ]
   }
 })
