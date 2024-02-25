@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/docs/',
+  base: '/',
   title: 'Build in Public 增长手册',
   description: 'Build yourself in public. Build your product in public.',
   themeConfig: {
