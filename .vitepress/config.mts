@@ -25,7 +25,7 @@ export default defineConfig({
   head: [
     [
       'link',
-      { rel: 'apple-touch-icon', sizes: '180x180', href: '/assets/favicons/apple-icon-180x180.png' },
+      { rel: 'apple-touch-icon', sizes: '180x180', href: '/favicons/apple-icon-180x180.png' },
     ],
     [
       'link',
@@ -33,7 +33,7 @@ export default defineConfig({
         rel: 'icon',
         type: 'image/png',
         sizes: '32x32',
-        href: '/assets/favicons/favicon-32x32.png',
+        href: '/favicons/favicon-32x32.png',
       },
     ],
     [
@@ -42,17 +42,17 @@ export default defineConfig({
         rel: 'icon',
         type: 'image/png',
         sizes: '16x16',
-        href: '/assets/favicons/favicon-16x16.png',
+        href: '/favicons/favicon-16x16.png',
       },
     ],
-    ['link', { rel: 'manifest', href: '/assets/favicons/manifest.json' }],
+    ['link', { rel: 'manifest', href: '/favicons/manifest.json' }],
     [
       'link',
-      { rel: 'mask-icon', href: '/assets/favicons/apple-icon.png', color: '#3a0839' },
+      { rel: 'mask-icon', href: '/favicons/apple-icon.png', color: '#3a0839' },
     ],
-    ['link', { rel: 'shortcut icon', href: '/assets/favicons/favicon.ico' }],
+    ['link', { rel: 'shortcut icon', href: '/favicons/favicon.ico' }],
     ['meta', { name: 'msapplication-TileColor', content: '#3a0839' }],
-    ['meta', { name: 'msapplication-config', content: '/assets/favicons/browserconfig.xml' }],
+    ['meta', { name: 'msapplication-config', content: '/favicons/browserconfig.xml' }],
     ['meta', { name: 'theme-color', content: '#ffffff' }],
   ],
 });
