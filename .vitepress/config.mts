@@ -11,9 +11,13 @@ export default defineConfig({
 
     nav: [
       { text: '首页', link: '/' },
-      { text: '港卡券商开户', link: '/docs/finance/introduce', activeMatch: '/docs/finance/' },
-      { text: 'Medium 写作', link: '/docs/medium/introduce', activeMatch: '/docs/finance/' },
-      { text: '加入社区', link: '/docs/about' },
+      {
+        text: '港卡外卡港美股开户',
+        link: '/docs/finance/introduce',
+        activeMatch: '/docs/finance/',
+      },
+      { text: 'Medium 写作指南', link: '/docs/medium/introduce', activeMatch: '/docs/finance/' },
+      { text: '👬 加入社区', link: '/docs/about' },
     ],
 
     sidebar: {
@@ -34,12 +38,12 @@ export default defineConfig({
     // },
 
     docFooter: {
-      prev: '上一页',
-      next: '下一页',
+      prev: '上一篇',
+      next: '下一篇',
     },
 
     outline: {
-      label: '页面导航',
+      label: '目录',
     },
 
     lastUpdated: {
@@ -56,7 +60,7 @@ export default defineConfig({
     sidebarMenuLabel: '菜单',
     darkModeSwitchLabel: '主题',
     lightModeSwitchTitle: '切换到浅色模式',
-    darkModeSwitchTitle: '切换到深色模式'
+    darkModeSwitchTitle: '切换到深色模式',
   },
   head: [
     [
@@ -96,14 +100,19 @@ function getHomeSidebar() {
       text: '介绍',
       items: [{ text: '什么是 Build in Public', link: '/docs/idea/introduce' }],
     },
+    ...getFinanceSidebar(),
+    ...getMediumSidebar(),
   ];
 }
 
 function getFinanceSidebar() {
   return [
     {
-      text: '外卡券商开户',
-      items: [{ text: '什么是 Build in Public', link: '/docs/finance/introduce' }],
+      text: '港卡外卡港美股开户',
+      items: [
+        { text: '为什么要开户', link: '/docs/finance/introduce' },
+        { text: '开户准备事项', link: '/docs/finance/prepare' },
+      ],
     },
   ];
 }
@@ -112,7 +121,29 @@ function getMediumSidebar() {
   return [
     {
       text: 'Medium 写作指南',
-      items: [{ text: '什么是 Build in Public', link: '/docs/medium/introduce' }],
+      items: [
+        { text: '为什么要写 Medium', link: '/docs/medium/introduce' },
+        {
+          text: '如何写 Medium 赚美刀💰',
+          link: '/docs/medium/prepare',
+        },
+      ],
+    },
+  ];
+}
+
+function getCommonSidebar() {
+  return [
+    {
+      text: '手册导航',
+      items: [
+        { text: '什么是 Build in Public', link: '/docs/idea/introduce' },
+        { text: '港卡外卡港美股开户', link: '/docs/finance/introduce' },
+        {
+          text: 'Medium 写作指南',
+          link: '/docs/medium/introduce',
+        },
+      ],
     },
   ];
 }
