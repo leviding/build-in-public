@@ -6,7 +6,7 @@ export default defineConfig({
   title: 'Build in Public 增长手册',
   description: 'Build yourself in public. Build your product in public.',
   themeConfig: {
-    logo: '',
+    logo: '/assets/images/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
