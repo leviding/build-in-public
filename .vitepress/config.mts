@@ -16,7 +16,7 @@ export default defineConfig({
         link: '/docs/finance/introduce',
         activeMatch: '/docs/finance/',
       },
-      { text: 'Medium 写作指南', link: '/docs/medium/introduce', activeMatch: '/docs/finance/' },
+      { text: 'Medium 写作指南', link: '/docs/medium/introduce', activeMatch: '/docs/medium/' },
       { text: '👬 加入社区', link: '/docs/about' },
     ],
 
