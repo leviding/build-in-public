@@ -1,5 +1,5 @@
-*/.vitepress/cache
-*/.vitepress/dist
+.vitepress/cache
+.vitepress/dist
 node_modules
 
 .DS_Store
