@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /docs/markdown-examples
+      link: /docs/idea/introduce
     - theme: alt
       text: 订阅更新
-      link: /docs/api-examples
+      link: /docs/about
 
 features:
   - title: 💳 港卡外卡港美股开户

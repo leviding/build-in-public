@@ -6,19 +6,17 @@ export default defineConfig({
   title: 'Build in Public 增长手册',
   description: 'Build yourself in public. Build your product in public.',
   themeConfig: {
-    logo: '/assets/images/logo.png',
+    logo: '',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '加入社区', link: '/about' },
+      { text: '加入社区', link: '/docs/about' },
     ],
-
     sidebar: [
       {
-        text: 'Examples',
+        text: '介绍',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
+          { text: '什么是 Build in Public', link: '/docs/idea/introduce' },
         ],
       },
     ],
