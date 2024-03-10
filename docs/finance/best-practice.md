@@ -1,6 +1,6 @@
 ## 香港开户最佳实践
 
-通讯、出行、证件材料、开户理由请参考我写的 👉 https://bip.dingxuewen.com/docs/finance/prepare.html
+通讯、出行、证件材料、开户理由请参考我写的 👉 https://bip.dingxuewen.com/docs/finance/bank-prepare.html
 
 具体其他开户教程还在撰写中。之前没开过港卡的，推荐必开的银行：
 
