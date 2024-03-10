@@ -108,11 +108,20 @@ function getHomeSidebar() {
 function getFinanceSidebar() {
   return [
     {
-      text: '港卡外卡港美股开户',
+      text: '港美股开户',
+      items: [{ text: '如何开港股美股账户', link: '/docs/finance/stock' }],
+    },
+    {
+      text: '香港卡开户',
       items: [
-        { text: '为什么要开户', link: '/docs/finance/introduce' },
+        { text: '为什么要开户', link: '/docs/finance/stock' },
         { text: '开户准备事项', link: '/docs/finance/prepare' },
+        { text: '香港开户最佳实践', link: '/docs/finance/best-practice' },
       ],
+    },
+    {
+      text: '海外卡开户',
+      items: [{ text: '为什么要开户', link: '/docs/finance/introduce' }],
     },
   ];
 }
@@ -132,18 +141,3 @@ function getMediumSidebar() {
   ];
 }
 
-function getCommonSidebar() {
-  return [
-    {
-      text: '手册导航',
-      items: [
-        { text: '什么是 Build in Public', link: '/docs/idea/introduce' },
-        { text: '港卡外卡港美股开户', link: '/docs/finance/introduce' },
-        {
-          text: 'Medium 写作指南',
-          link: '/docs/medium/introduce',
-        },
-      ],
-    },
-  ];
-}
