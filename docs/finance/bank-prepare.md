@@ -1,6 +1,8 @@
 ## 港卡开户准备
 
-感兴趣的微信扫码进群
+感兴趣的微信扫码进群。注意，本群不单纯是港卡开户，里面还有港美股券商「长桥」的客户经理介绍长桥开户，介意勿进。
+
+在内地即可开户港美股的教程请见 👉 [港美股开户](/docs/finance/stock.md)
 
 <img src="/images/wechat-group.png" width="200" height="200" style="display: block; margin-left: auto; margin-right: auto;" />
 
